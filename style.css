@@ -1,0 +1,150 @@
+/* navbar */
+.navbar {
+  padding: 0 50px;
+  background-color: #37839d;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+#wave1 {
+  margin-bottom: -7rem;
+}
+/* header video */
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+.caption {
+  width: 100%;
+  height: 100%;
+}
+
+.caption > img {
+  width: 120px;
+  height: 120px;
+  margin-top: 4rem;
+}
+
+/* about me */
+.about_me {
+  padding-bottom: 3rem;
+  height: max-content;
+}
+
+#wave2 {
+  margin-top: -3rem;
+}
+h2,
+/* card content */
+.card_content {
+  padding: 50px;
+}
+
+/* footer icon */
+.Container_footer {
+  background-color: #495057;
+}
+
+.icon > a:hover {
+  background-color: aliceblue;
+  transition: all 300ms ease-in-out;
+}
+
+svg {
+  width: 100%;
+}
+
+/* text animation */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+.text {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  margin-top: 200px;
+  justify-content: center;
+  padding-right: 150px;
+}
+
+.text1 {
+  margin-right: -90px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.animation {
+  width: max-content;
+  margin-top: 0;
+}
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #8e44ad;
+}
+
+.belize {
+  color: #2980b9;
+}
+
+.pomegranate {
+  color: #c0392b;
+}
+
+.green {
+  color: #16a085;
+}
+
+.midnight {
+  color: #2c3e50;
+}
